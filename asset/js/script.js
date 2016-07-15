@@ -2,8 +2,6 @@
 
 $(document).ready(function ($) {
 
-     jQuery('#map').CustomMap();
-
 
      ////------- Testimonials Carousel
     
