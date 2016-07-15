@@ -137,6 +137,21 @@
         </div> 
     </section>
         
+        <!--Panorama viewer script -->
+        <script>
+        var viewer1 = PhotoSphereViewer({
+            panorama: 'asset/images/maincamp.jpg',
+            container: 'photosphere',
+            autoload: 'true',
+            navbar: 'autorotate zoom download caption fullscreen',
+            default_fov: 70,
+            mousewheel: false,
+            size: {
+              height: 500
+            }
+        });
+        </script>
+        
         <!-- Start Footer Section -->
         <section id="footer-section" class="footer-section">
             <div class="container">
@@ -175,21 +190,6 @@
             </div><!-- /.container -->
         </div>
         <!-- End CCopyright Section -->
-        
-        <!--Panorama viewer script -->
-        <script>
-        var viewer1 = PhotoSphereViewer({
-            panorama: 'asset/images/maincamp.jpg',
-            container: 'photosphere',
-            autoload: 'true',
-            navbar: 'autorotate zoom download caption fullscreen',
-            default_fov: 70,
-            mousewheel: false,
-            size: {
-              height: 500
-            }
-        });
-        </script>
         
         <!-- JS -->
         <script src="asset/js/jquery-2.1.3.min.js"></script>
