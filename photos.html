@@ -138,17 +138,18 @@
         <script src="asset/js/Photo-Sphere-Viewer/dist/photo-sphere-viewer.min.js"></script>
         <!--Panorama viewer script -->
         <script>
-        var viewer1 = PhotoSphereViewer({
-            panorama: 'http://photo-sphere-viewer.js.org/assets/Bryce-Canyon-National-Park-Mark-Doliner.jpg',
-            container: 'photosphere',
-            autoload: true,
-            navbar: 'autorotate zoom download caption fullscreen',
-            default_fov: 70,
-            mousewheel: false,
-            size: {
-              height: 500
-            }
-        });
+            var PSV = new PhotoSphereViewer({
+                panorama: 'http://photo-sphere-viewer.js.org/assets/Bryce-Canyon-National-Park-Mark-Doliner.jpg',
+                container: 'photosphere',
+                caption: 'Bryce Canyon National Park <b>&copy; Mark Doliner</b>',
+                loading_img: 'http://photo-sphere-viewer.js.org/assets/photosphere-logo.gif',
+                navbar: 'autorotate zoom download caption fullscreen',
+                default_fov: 70,
+                mousewheel: false,
+                size: {
+                  height: 500
+                }
+              });
         </script>
         
         <!-- Start Footer Section -->
