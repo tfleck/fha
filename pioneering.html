@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css" type="text/css">
 
         <!-- Font Awesome CSS -->
-        <link rel="stylesheet" href="asset/font-awesome/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
 
         <!-- Owl Carousel CSS -->
         <link rel="stylesheet" href="asset/css/owl.carousel.css" type="text/css">
@@ -124,7 +124,16 @@
         <!-- Start Blog Page Section -->
         <div class="container">
             <div class="row">
-                Pioneering, etc dsofasd;nfladnfuhu
+               <div class="col-lg-12">
+                    <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                        <h2>Pioneering</h2><br>
+                        <p>On sunday, we walk into an empty field with miles of rope, and more birch than you could shake a forest at,and we build <i>everything</i><br>
+                        Shelters, kitchen, above-ground fire pit, kitchen table, showerhouse complete with hot shower, <i>everything</i>. All the comforts of home<br><br>
+                        By the time we are done on saturday, the camp looks something like this:&nbsp;(use your mouse to pan around)<br>
+                        <div id="photosphere1" style="height:500px;"></div><br>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- End Blog Page Section -->
@@ -181,7 +190,37 @@
         <script src="asset/js/count-to.js"></script>
         <script src="asset/js/styleswitcher.js"></script>
         <script src="asset/js/script.js"></script>
-        
+        <link rel="stylesheet" href="asset/js/Photo-Sphere-Viewer/dist/photo-sphere-viewer.min.css">
+        <script data-cfasync="false" src="asset/js/three.js/build/three.min.js"></script>
+        <script data-cfasync="false" src="asset/js/D.js/lib/D.min.js"></script>
+        <script data-cfasync="false" src="asset/js/uEvent/uevent.min.js"></script>
+        <script data-cfasync="false" src="asset/js/doT/doT.min.js"></script>
+        <script data-cfasync="false" src="asset/js/three.js/examples/js/renderers/CanvasRenderer.js"></script>
+        <script data-cfasync="false" src="asset/js/three.js/examples/js/renderers/Projector.js"></script>
+        <script data-cfasync="false" src="asset/js/three.js/examples/js/postprocessing/EffectComposer.js"></script>
+        <script data-cfasync="false" src="asset/js/three.js/examples/js/postprocessing/RenderPass.js"></script>
+        <script data-cfasync="false" src="asset/js/three.js/examples/js/postprocessing/ShaderPass.js"></script>
+        <script data-cfasync="false" src="asset/js/three.js/examples/js/postprocessing/MaskPass.js"></script>
+        <script data-cfasync="false" src="asset/js/three.js/examples/js/shaders/CopyShader.js"></script>
+        <script data-cfasync="false" src="asset/js/three.js/examples/js/controls/DeviceOrientationControls.js"></script>
+        <script data-cfasync="false" src="asset/js/Photo-Sphere-Viewer/dist/photo-sphere-viewer.min.js"></script>
     
+        <!--Panorama viewer script -->
+        <script data-cfasync="false" type="text/javascript">
+              var PSV1 = new PhotoSphereViewer({
+                panorama: 'asset/images/photos/maincamp.jpg',
+                container: 'photosphere1',
+                loading_img: 'asset/images/photos/loading.gif',
+                caption: "The view from the top of Ian's shelter",
+                navbar: 'autorotate zoom gyroscope caption fullscreen',
+                anim_speed: '1rpm',
+                gyroscope: true,
+                default_fov: 70,
+                mousewheel: false,
+                size: {
+                  height: 500
+                }
+              });
+        </script>
     </body>
 </html>
