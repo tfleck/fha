@@ -563,8 +563,8 @@ a.navbar-brand {
 
 
 #about-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     //background: url(../images/parallax/bg-01.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -572,8 +572,8 @@ a.navbar-brand {
 
 #about-section-2 {
     background: #f9f9f9;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 
@@ -866,8 +866,8 @@ iframe {
 
 
 #team-section {
-    padding-top: 80px;
-    padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     background: #fff;
     color: #111;
     overflow: hidden;
@@ -1001,20 +1001,20 @@ iframe {
 /*------------------------------------------*/
 
 .portfolio-section-1 {
-    padding-top: 80px;
-    padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     background: #f2fffc;
 }
 
 .portfolio-section-2 {
-    padding-top: 80px;
-    padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     //background: #f7f7f7;
 }
 
 .portfolio-section-3 {
-    padding-top: 80px;
-    padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     background: #111;
 }
 
@@ -1186,8 +1186,8 @@ and (min-width : 551px){
 /********************************/
 
 #service-section {
-    padding-top: 80px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .services-post {
@@ -1293,8 +1293,8 @@ and (min-width : 551px){
 
 
 .pricing-section {
-    padding-top: 80px;
-    padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .pricing {
@@ -1396,8 +1396,8 @@ h3.pricing-title {
 /*******************************************/
 
 #client-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .client-box ul {
@@ -2082,7 +2082,7 @@ h1.post-title a {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 100px;
 }
 
